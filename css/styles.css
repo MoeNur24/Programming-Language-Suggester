@@ -3,5 +3,30 @@
     font-size: medium;  
     display: flex;
     background: rgb(150, 187, 220)
+}
+h1 {
+    color: rgb(199, 104, 104);
+    margin: 5%;
+    font-family:'Times New Roman', Times, serif Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 200%;
+    font-style: oblique;
+}
+body {
+    padding: 15%;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(https://t3.ftcdn.net/jpg/04/87/25/96/360_F_487259621_skN0Ty9jCZdoU5sdHpR5a0g5XmZ5ozep.jpg)
+}
+div > p {
+    padding: 3%;
+    flex:content ;
+}
+.user_name {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: inherit;
+}
+div > label {
+    padding: 3%;
 
 }
