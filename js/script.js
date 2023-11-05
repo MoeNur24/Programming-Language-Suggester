@@ -1,4 +1,4 @@
-$(document).ready(function) {
+$(document).ready(function()) {
     $("form#fillout-form").submit(function (event) {
         event.preventDefault();
         const name = $("#name").val();
@@ -12,6 +12,13 @@ $(document).ready(function) {
             alert('State your full name:');
         } else if (answer1 === "Yes" && answer2 === "Yes") {    
           $("#suggestion1").slideDown();
-        }
-    } 
-}
+        } else if (answer3 === "Yes" && answer4 === "Yes") {    
+            $("#suggestion2").slideDown();
+        } else if (answer5 === "Yes") {    
+            $("#suggestion3").slideDown();
+        };
+
+        $(".user_name").text(name);
+        $(this) [0].reset();
+    }); 
+});
