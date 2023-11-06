@@ -26,7 +26,6 @@ function handleFormSubmit(event) {
     // Display user's name in suggestions 
     document.querySelector(".user_name").textContent = name;
 
-    // Reset the form
     document.getElementById("fillout-form").reset();
 
 }
