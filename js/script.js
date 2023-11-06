@@ -8,11 +8,11 @@ function handleFormSubmit(event) {
         let answer3 = document.querySelector("input[name=question3]:checked").value;
         let answer4 = document.querySelector("input[name=question4]:checked").value;
         let answer5 = document.querySelector("input[name=question5]:checked").value;
-        
-        // Check for empty name 
-        if (name.length === 0) {
-            alert('State your full name:');
-            // Check conditions and show suggestions
+
+        // Reset suggestions section
+        document.getElementById("suggestion1").style.display = "none";
+        document.getElementById("suggestion2").style.display = "none";
+        document.getElementById("suggestion3").style.display = "none";
 
         } else if (answer1 === "Yes" && answer2 === "Yes") {    
           $("#suggestion1").slideDown();
