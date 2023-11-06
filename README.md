@@ -17,7 +17,7 @@
 ## Setup/Installation Requirements
 * _VS Code_
 * _Git Hub_
-* You'll be able to use any browswer by clicking the link below.
+* You'll be able to use any browser by clicking the link below.
 
 ## Link
 
