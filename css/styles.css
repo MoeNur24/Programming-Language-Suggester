@@ -3,18 +3,27 @@
 #suggestion3 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
-    display: flex;
-    background: rgb(150, 187, 220)
+    display: none;
+    margin-top: 20px;
+    background-color: #dff0d8;
+    border-radius: 4px;
+    padding: 15px;
+    border: 1px solid #d6e9c6
+    
 }
 
 h1 {
-    color: rgb(199, 104, 104);
-    margin: 5%;
+    color:black;
+    margin: 10%;
     font-family: 'Times New Roman', Times, serif Arial, Helvetica, sans-serif;
     font-weight: bold;
     text-align: center;
     font-size: 200%;
     font-style: oblique;
+}
+
+form {
+    margin-bottom: 25px;
 }
 
 body {
@@ -45,7 +54,20 @@ div>label {
     font-size: large;
 }
 
-#suggestion-form {
+#fillout-form {
     font-weight: bold;
     font-size: large;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+button {
+    background-color: rgb(16, 121, 121);
+    color: black;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 10xp 15px;
+    border: none;
 }
