@@ -12,14 +12,14 @@
 <body>
     <div class="container">
         <h1>Pick The Best Coding Language</h1>
-        <form id="fillout-form">
+        <form id="fillout-form" onsubmit="handleFormSubmit(event)">
             <div class="form-group">
                 <label for="name">State your full name:</label>
                 <input type="text" id="name" class="form-control">
             </div>
 
             <div class="question">
-                <label for="question-one">Do you like to travel?
+                <label for="question-one">Do you love to travel?
                     <input type="radio" name="question1" value="Yes" checked> Yes
                     <input type="radio" name="question1" value="No"> No
                 </label>
